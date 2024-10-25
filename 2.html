@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>قالب عرض تقديمي</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  margin: 10px 0;
+}
+
+.flex-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  flex: 1 1 100%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>عنوان العرض التقديمي</h1>
+</header>
+<section>
+  <h2>مقدمة</h2>
+  <p>نص المقدمة هنا.</p>
+  <h2>القسم الأول</h2>
+  <div class="flex-container">
+    <div class="flex-item">
+      <h3>نقطة 1</h3>
+      <p>تفاصيل نقطة 1.</p>
+    </div>
+    <div class="flex-item">
+      <h3>نقطة 2</h3>
+      <p>تفاصيل نقطة 2.</p>
+    </div>
+  </div>
+  <h2>الخاتمة</h2>
+  <p>نص الخاتمة.</p>
+</section>
+</body>
+</html>
